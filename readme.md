@@ -54,7 +54,7 @@ To evaluate the effects of the trained model.
 
 ![image](code_structure.png)
 
-3. Notes on training: If you encounter issues with VRAM capacity, please adjust the `train_batch_size` in `a_supcon_model_training.py` to a lower value. As a reference, the default batch size of 512 requires approximately 35GB of VRAM.
+3. Notes on training: If you encounter issues with VRAM capacity, please adjust the `train_batch_size` in `/01_base_model_training_codes/t-1_to_t-4_base_model_training.py` to a lower value. As a reference, the default batch size of 512 requires approximately 35GB of VRAM.
 
 ### Reference:
 If you find our study useful, please consider citing us:
